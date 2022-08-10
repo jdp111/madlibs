@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+    Madlib
+{% endblock %}
+
+{% block head %}
+    Enter words here:
+{% endblock %}
+
+{% block customStory %}
+    <form method = "POST">
+    {% for word_type in words %}
+        <div class = 'wordbox'>{{word_type}}: <input type="text" name = "{{word_type}}"></div>
+    {% endfor %}
+        <a href = "/story">
+            <button class = "subbut">Save</button>
+        </a>
+    </form>
+{%endblock%}

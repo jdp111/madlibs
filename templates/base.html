@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>{%block title%}{% endblock %}</title>
+<header class = 'title'>{%block head%}{% endblock %}</header>
+<link rel = "stylesheet" href="/static/app.css">
+</head>
+
+<body>
+<div>
+    {% block customStory %}{%endblock%}
+</div>
+
+<div>
+    
+    <p> {{story}}</p>
+
+</div>
+
+</body>
+
+</html>

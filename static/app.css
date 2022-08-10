@@ -1,0 +1,17 @@
+.wordbox{
+    margin-top: 20px;
+    font-size: large;
+}
+
+.title{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.subbut{
+    padding: 7px;
+    position:relative;
+    left: 110px;
+    margin-top: 23px;
+}
